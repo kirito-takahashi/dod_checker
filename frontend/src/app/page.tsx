@@ -6,6 +6,7 @@ import { Search, Loader2 } from "lucide-react";
 import ScoreCard from "@/components/ScoreCard";
 import CultureRadar from "@/components/CultureRadar";
 import SemanticMap from "@/components/SemanticMap";
+import Insights from "@/components/Insights";
 
 const API_URL = "http://127.0.0.1:8000";
 
@@ -109,7 +110,7 @@ export default function Home() {
                     </div>
 
                     <div className="md:col-span-2 lg:col-span-1">
-                        <p className="hidden lg:block text-zinc-800">.</p> {/* Spacer or add insights here */}
+                        <Insights corporate={data.dimensions.corporate} employee={data.dimensions.employee} />
                     </div>
 
                     <div className="md:col-span-1">
