@@ -1,6 +1,10 @@
 # dod_checker
 This application is designed for workers in organization to check how the discrepancy between employees and the management expanded.
 
+# Research
+
+The idea behind this app comes from a study of the Degree of Discrepancy between management vision statements and employee reviews. The notebooks are in [`notebooks/`](notebooks/README.md).
+
 # Tech Stack
 - Python 3.12
 - FastAPI
