@@ -215,3 +215,9 @@ venv/
 __pycache__/
 *.pyc
 
+
+# macOS
+.DS_Store
+
+# Scratch notebook (not part of the study)
+notebooks/test_code_20250929ipynb.ipynb
